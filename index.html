@@ -41,7 +41,7 @@
         let jugador = { x: 50, y: canvas.height / 2, width: 30, height: 30, velocidadY: 0, gravedad: 0.6, salto: -10 };
         let obstaculos = [];
         let espacio = 180;
-        let velocidadObstaculos = 3;
+        let velocidadObstaculos = 2;
         let intervaloObstaculos = 100;
         let frames = 0;
         let puntos = 0;
@@ -131,7 +131,8 @@
             juegoActivo = false;
             ctx.fillStyle = "purple";
             ctx.font = "30px Arial";
-            ctx.fillText("Mi primer juego para Cami ❤️", canvas.width / 4, canvas.height / 2);
+            ctx.fillText("primer juego de joa", canvas.width / 4, canvas.height / 2);
+            ctx.fillText("Para cami ❤️", canvas.width / 2, canvas.height / 1);
         }
 
         function saltar() {
